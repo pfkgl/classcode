@@ -33,8 +33,8 @@ warnings.filterwarnings("ignore")
 ###################################
 # Set user options
 ###################################
-date_firstrecord = '2001083100' # used only if plot_tpvs_within_timerange = 'True'
-date_lastrecord = '2001093118' # used only if plot_tpvs_within_timerange = 'True'
+date_firstrecord = '1979010113' # used only if plot_tpvs_within_timerange = 'True'
+date_lastrecord = '2019123100' # used only if plot_tpvs_within_timerange = 'True'
 plot_tpvs_within_timerange = 'True' # If 'True', only finds vortices within time range listed above in date_firstrecord and date_lastrecord 
 plot_tpvs_at_specific_time = 'False' # If 'True', finds all vortices located at time date_firstrecord
 
@@ -75,8 +75,8 @@ fdir = '/data2/scavallo/nnrp/cyclones_nsidc/'
 # Change the above to point to the track files located currently in the path below
 # fdir = '/raid3/datasets/tpv_tracks/0p5/'
 
-textfile = 'ncepstorms_allarctic_1958_2016.txt'
-textfile_out = 'ncep_sfccylones_2001083100_2001093118.dat'
+textfile = 'ERA5_sfccyclones_arctictracks_1979010100_2019123100.dat'
+textfile_out = 'ERA5_sfccyclones_arctictracks_1979010100_2019123100.dat'
 
 
 imagedir = '/home/scavallo/scripts/python_scripts/images/'
